@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white text-center py-8">
-        <p className="text-gray-400">© 2025 EventManager. Built with ❤️ for amazing experiences.</p>
+        <p className="text-gray-400">© {new Date().getFullYear()} EventManager</p>
       </footer>
     </main>
   )
